@@ -12,6 +12,23 @@ const NevjegyScreen = () => {
   );
 };
 
-
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'top',
+    alignItems: 'center',
+    backgroundColor: 'lightblue',
+  },
+  title: {
+    fontSize: 24,
+    fontWeight: 'bold',
+    marginBottom: 20,
+    marginTop: 20,
+  },
+  text: {
+    fontSize: 18,
+    marginBottom: 10,
+  },
+});
 
 export default NevjegyScreen;
